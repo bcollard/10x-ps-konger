@@ -1,0 +1,15 @@
+{
+  "name": "klimax-presentation",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Klimax reveal.js presentation deck",
+  "scripts": {
+    "serve": "reveal-md . --theme black --css theme/kong.css -w",
+    "static": "reveal-md . --theme black --css theme/kong.css --static dist",
+    "pdf": "reveal-md . --theme black --css theme/kong.css --print dist/klimax-presentation.pdf"
+  },
+  "devDependencies": {
+    "puppeteer": "22.9.0",
+    "reveal-md": "^6.1.1"
+  }
+}

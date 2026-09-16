@@ -1,0 +1,67 @@
+/* Kong-branded dark overlay on top of reveal.js's "black" theme. */
+
+.reveal {
+  --kong-lime: #ccff00;
+  --kong-lime-dim: #a6d900;
+  --kong-lime-soft: #e2ff66;
+
+  --r-background-color: #14161a;
+  --r-main-color: #f2f2f2;
+  --r-heading-color: var(--kong-lime);
+  --r-heading-font: Verdana, Arial, sans-serif;
+
+  --r-link-color: var(--kong-lime);
+  --r-link-color-dark: var(--kong-lime-dim);
+  --r-link-color-hover: var(--kong-lime-soft);
+
+  --r-selection-background-color: rgba(204, 255, 0, 0.35);
+  --r-selection-color: #14161a;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.reveal .slides section .fragment.highlight-current-blue.current-fragment {
+  color: var(--kong-lime);
+}
+
+.reveal blockquote {
+  border-left: 4px solid var(--kong-lime);
+  background: rgba(204, 255, 0, 0.06);
+}
+
+.reveal pre {
+  border: 1px solid rgba(204, 255, 0, 0.25);
+  box-shadow: none;
+}
+
+.reveal hr {
+  border-color: var(--kong-lime);
+}
+
+.reveal .slide-number {
+  background: transparent;
+  color: var(--kong-lime-dim);
+}
+
+.reveal .progress {
+  color: var(--kong-lime);
+}
+
+.reveal .controls {
+  color: var(--kong-lime);
+}
+
+.reveal a {
+  text-decoration: underline;
+  text-decoration-color: rgba(204, 255, 0, 0.4);
+}
+
+.reveal ::marker {
+  color: var(--kong-lime);
+}

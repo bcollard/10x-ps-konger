@@ -1,0 +1,4 @@
+node_modules/
+deck.md
+dist/
+.DS_Store
